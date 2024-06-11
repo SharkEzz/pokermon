@@ -1,0 +1,5 @@
+{
+    "eslint.experimental.useFlatConfig": true,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true
+}
