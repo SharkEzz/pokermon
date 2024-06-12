@@ -6,7 +6,6 @@
     "baseUrl": "./",
     "verbatimModuleSyntax": true,
     "esModuleInterop": true,
-    "incremental": true,
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noPropertyAccessFromIndexSignature": true,

@@ -1,0 +1,10 @@
+{
+  "name": "@pokermon/types",
+  "type": "module",
+  "exports": {
+    "./*": {
+      "types": "./src/*.ts",
+      "default": null
+    }
+  }
+}

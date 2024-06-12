@@ -1,0 +1,22 @@
+{
+  "name": "@pokermon/server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.15.2",
+    "typescript": "^5.4.5",
+    "@pokermon/eslint-config": "workspace:*",
+    "@pokermon/types": "workspace:*"
+  },
+  "dependencies": {
+    "@fastify/websocket": "^10.0.1",
+    "fastify": "^4.27.0",
+    "xstate": "^5.13.2"
+  }
+}
